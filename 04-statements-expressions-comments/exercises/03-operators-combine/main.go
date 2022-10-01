@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Operators combine the expressions
 //
@@ -22,6 +27,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-
-	// fmt.Println("Hello!" + ?)
+	a := strings.Repeat("!", 3)
+	fmt.Println("Hello" + a + "?")
 }

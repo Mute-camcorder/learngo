@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"runtime"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Print the Go Version
 //
@@ -23,5 +28,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
+	versionString := runtime.Version()
+	fmt.Println(versionString)
 }

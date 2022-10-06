@@ -66,4 +66,8 @@ func main() {
 
 	// COMMENT-OUT ALL THE CODE ABOVE, THEN,
 	// ADD YOUR OWN SOLUTIONS BELOW
+
+	for i := 0; i < 16; i++ {
+		fmt.Printf("%02X ", i)
+	}
 }
